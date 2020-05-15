@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4724AA78246F4CAB00F7167A /* ReversedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4724AA77246F4CAB00F7167A /* ReversedViewController.swift */; };
 		6B4E465422C202DD00D0F78E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E465322C202DD00D0F78E /* AppDelegate.swift */; };
 		6B4E465622C202DD00D0F78E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E465522C202DD00D0F78E /* SceneDelegate.swift */; };
 		6B4E465D22C202DF00D0F78E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B4E465C22C202DF00D0F78E /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4724AA77246F4CAB00F7167A /* ReversedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReversedViewController.swift; sourceTree = "<group>"; };
 		6B4E465022C202DD00D0F78E /* SampleJTAppleCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleJTAppleCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B4E465322C202DD00D0F78E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B4E465522C202DD00D0F78E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				6B4E468522C2150100D0F78E /* TestOrientationChanges.swift */,
 				6B4E468622C2150100D0F78E /* TestYearViewViewController.swift */,
 				6B4E468722C2150100D0F78E /* TestPersianCalendar.swift */,
+				4724AA77246F4CAB00F7167A /* ReversedViewController.swift */,
 			);
 			path = "Example Calendars";
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				6B4E468A22C2150100D0F78E /* TestViewController.swift in Sources */,
 				6B4E468822C2150100D0F78E /* ViewController.swift in Sources */,
 				6B4E46A022C2151E00D0F78E /* CodeWhiteSectionHeaderView.swift in Sources */,
+				4724AA78246F4CAB00F7167A /* ReversedViewController.swift in Sources */,
 				6B4E469522C2151500D0F78E /* CellView.swift in Sources */,
 				6B4E46A122C2151E00D0F78E /* CodePinkSectionHeaderView.swift in Sources */,
 				6B4E465422C202DD00D0F78E /* AppDelegate.swift in Sources */,

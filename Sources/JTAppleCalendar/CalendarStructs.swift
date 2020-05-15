@@ -165,7 +165,7 @@ public struct Month {
     public let outDates: Int
 
     /// Maps a section to the index in the total number of sections
-    let sectionIndexMaps: [Int: Int]
+    var sectionIndexMaps: [Int: Int]
 
     /// Number of rows for the month
     public let rows: Int

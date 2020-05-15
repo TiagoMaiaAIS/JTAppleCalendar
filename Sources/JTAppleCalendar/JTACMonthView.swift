@@ -76,7 +76,20 @@ open class JTACMonthView: UICollectionView {
     
     /// The object that acts as the data source of the calendar view.
     weak open var calendarDataSource: JTACMonthViewDataSource? {
-        didSet { setupMonthInfoAndMap() } // Refetch the data source for a data source change
+        didSet {
+            var calendarData = setupMonthInfoDataForStartAndEndDate()
+            calendarData.months = calendarData
+                .months
+                .reversed()
+                .enumerated()
+                .map({ (value: (offset: Int, element: Month)) -> Month in
+                    var mapped = value.element
+                    mapped.sectionIndexMaps[value.offset] = 0
+                    return mapped
+                })
+
+            theData = calendarData
+        } // Refetch the data source for a data source change
     }
     
     var triggerScrollToDateDelegate: Bool? = true
